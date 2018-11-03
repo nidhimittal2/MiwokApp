@@ -42,7 +42,7 @@ words.add(new Word("mustard yellow", "chiwiiṭә", R.drawable.color_mustard_yel
 
         //LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView);
 
-        WordAdapter adapter = new WordAdapter(this, words);
+        WordAdapter adapter = new WordAdapter(this, words,R.color.category_colors);
 
         ListView listView = (ListView) findViewById(R.id.list);
 
